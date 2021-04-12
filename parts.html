@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/select2.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Auto Parts</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="header__top-container">
+                    <a class="header__top-link header__top-map" href="#">г. Молодечно, ул. Т. Дудко 4</a>
+                    <a class="header__top-link header__top-tel" href="tel:375293436988">+375 (29) 343-69-88</a>
+                    <a class="header__top-link header__top-email" href="#">transmolregion@tut.by</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__left">
+                    <div class="logo">
+                        <img class="logo__img" src="/img/logo.png" alt="logo">
+                    </div>
+                    <div class="search">
+                        <form class="form-search" action="#">
+                            <input class="form__input-search" placeholder="Введите артикул или VIN-Код" type="text">
+                            <input class="form__btn" type="submit" value="">
+                        </form>
+                    </div>
+                    <div class="schedule-items">
+                        <p class="schedule-item">
+                            <span class="text-bold">ПН - ПТ</span> 8:00 - 19:00
+                        </p>
+                        <p class="schedule-item">
+                            <span class="text-bold">СБ</span> 09:00 - 16:00
+                        </p>
+                        <p class="schedule-item">
+                            <span class="text-bold text-red">ВС</span> <span class="text-red"> выходной</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="header__right">
+                    <a class="header__right-link header__right-profile" href="#">Мой профиль</a>
+                    <a class="header__right-link header__right-cart" href="#">Корзина</a>
+                </div>
+            </div>
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__list-item">
+                        <a class="navigation__list-link active" href="/index.html">Главная</a>
+                    </li>
+                    <li class="navigation__list-item">
+                        <a class="navigation__list-link" href="#">Автозапчасти</a>
+                    </li>
+                    <li class="navigation__list-item">
+                        <a class="navigation__list-link" href="#">Машинокомплекты</a>
+                    </li>
+                    <li class="navigation__list-item">
+                        <a class="navigation__list-link" href="#">Диски/Шины</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="filter">
+        <div class="container">
+            <div class="filter__inner">
+                <select class="car-brand filter__list" placeholder="Марка автомобиля">
+                    <option value=""></option>
+                    <option>Все марки автомобилей</option>
+                    <option>Acura</option>
+                    <option>AUDI</option>
+                    <option>BMW</option>
+                    <option>Cadilac</option>
+                </select>
+                <select class="model filter__list" placeholder="Модель автомобиля">
+                    <option value=""></option>
+                    <option>Все модели автомобилей</option>
+                    <option>Acura</option>
+                    <option>AUDI</option>
+                    <option>BMW</option>
+                    <option>Cadilac</option>
+                </select>
+                <select class="spare-part filter__list" placeholder="Название запчасти">
+                    <option value=""></option>
+                    <option>Все завпчасти автомобилей</option>
+                    <option>Acura</option>
+                    <option>AUDI</option>
+                    <option>BMW</option>
+                    <option>Cadilac</option>
+                </select>
+            </div>
+        </div>
+    </section>
+
+    <section class="item">
+        <div class="container">
+
+            <div class="item__inner">
+
+                <div class="item__part">
+                    <div class="item__img">
+                        <a href="/detail_parts.html" class="item__image-link">
+                            <img class="item__image" src="/img/test_photo.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="item__specification">
+                        <a class="item__title" href="/detail_parts.html">Передняя фара от машины BMW M9 F90</a>
+                        <ul class="item__specification-list">
+                            <p class="item__specification-title">Характеристика</p>
+                            <li><span class="text-bold">Марка:</span>: BMW
+                            <li><span class="text-bold">Модель:</span>: M5 F90
+                            <li><span class="text-bold">Год:</span>: 2001
+                            </li>
+                            <li><span class="text-bold">Маркировка:</span>: 203143435301
+                            </li>
+                            <li><span class="text-bold">Страна:</span>: Германия
+                            </li>
+                            <li><span class="text-bold">Артикул:</span>: A143242BF3
+                            </li>
+
+                        </ul>
+                        <div class="item__buy">
+                            <p class="box item__price">
+                                <span class="text-red text-bold">Цена:</span> 2300.00 BYN
+                            </p>
+                            <a class="item__button" href="#">КУПИТЬ</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item__part">
+                    <div class="item__img">
+                        <a href="/detail_parts.html" class="item__image-link">
+                            <img class="item__image" src="/img/test_photo.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="item__specification">
+                        <a class="item__title" href="/detail_parts.html">Передняя фара от машины BMW M9 F90</a>
+                        <ul class="box item__specification-list">
+                            <p class="item__specification-title">Характеристика</p>
+                            <li><span class="text-bold">Марка:</span>: BMW
+                            <li><span class="text-bold">Модель:</span>: M5 F90
+                            <li><span class="text-bold">Год:</span>: 2001
+                            </li>
+                            <li><span class="text-bold">Маркировка:</span>: 203143435301
+                            </li>
+                            <li><span class="text-bold">Страна:</span>: Германия
+                            </li>
+                            <li><span class="text-bold">Артикул:</span>: A143242BF3
+                            </li>
+                            <li><span class="text-bold">Год:</span>: 2001
+                            </li>
+                        </ul>
+                        <div class="box item__buy">
+                            <p class="box item__price">
+                                <span class="text-red text-bold">Цена:</span> 2300.00 BYN
+                            </p>
+                            <a class="item__button" href="#">КУПИТЬ</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item__part">
+                    <div class="item__img">
+                        <a href="/detail_parts.html" class="item__image-link">
+                            <img class="item__image" src="/img/1438340919_1592809721.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="item__specification">
+                        <a class="item__title" href="/detail_parts.html">Передняя фара от машины BMW M9 F90</a>
+                        <ul class="item__specification-list">
+                            <p class="item__specification-title">Характеристика</p>
+                            <li><span class="text-bold">Марка:</span>: BMW
+                            <li><span class="text-bold">Модель:</span>: M5 F90
+                            <li><span class="text-bold">Год:</span>: 2001
+                            </li>
+                            <li><span class="text-bold">Маркировка:</span>: 203143435301
+                            </li>
+                            <li><span class="text-bold">Страна:</span>: Германия
+                            </li>
+                            <li><span class="text-bold">Артикул:</span>: A143242BF3
+                            </li>
+                            <li><span class="text-bold">Год:</span>: 2001
+                            </li>
+                        </ul>
+                        <div class="item__buy">
+                            <p class="box item__price">
+                                <span class="text-red text-bold">Цена:</span> 2300.00 BYN
+                            </p>
+                            <a class="item__button" href="#">КУПИТЬ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__item">
+                    <p class="footer__item-title">
+                        КАТАЛОГ
+                    </p>
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="#">Запчасти Б/У</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="#">Машинокомплекты</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="#">Диски / шины</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <p class="footer__item-title">
+                        О НАС
+                    </p>
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="#">Контакты</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="index.html#map">Как добраться?</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="#">Реквезиты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <p class="footer__item-title">
+                        ИНФОРМАЦИЯ
+                    </p>
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="#">Доставка</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="#">Оплата</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="#">Гарантия</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="/js/select2.min.js"></script>
+    <script src="/js/i18n/ru.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/select2.min.css">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .wrapper {
+            max-width: 1430px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        .container {
+            /* display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between; */
+            display: grid;
+            grid-gap: 10px;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .box{
+            /* margin-top: 10px; */
+            /* flex-basis: 49.5%; */
+        }
+        .box1 {
+            background-color: red;
+        }
+
+        .box2 {
+            background-color: green;
+        }
+
+        .box3 {
+            background-color: yellow;
+        }
+
+        .box4 {
+            background-color: blue;
+        }
+
+        .box5 {
+            background-color: gray;
+        }
+
+        .box6 {
+            background-color: brown;
+        }
+
+        .box7 {
+            background-color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="box box1">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt dolorum sit odit, quibusdam animi
+                laborum. Nisi recusandae dolorum reiciendis, inventore suscipit cum nihil aliquam, quam et sed laborum
+                repudiandae voluptas?
+            </div>
+            <div class="box box2">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere ipsa officia sapiente in ea
+                reprehenderit voluptate quibusdam nisi, voluptatem provident cumque, molestias placeat. Pariatur
+                provident quae, sequi quia commodi animi.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere ipsa officia sapiente in ea
+                reprehenderit voluptate quibusdam nisi, voluptatem provident cumque, molestias placeat. Pariatur
+                provident quae, sequi quia commodi animi.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere ipsa officia sapiente in ea
+                reprehenderit voluptate quibusdam nisi, voluptatem provident cumque, molestias placeat. Pariatur
+                provident quae, sequi quia commodi animi.
+            </div>
+            <div class="box box3">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt dolorum sit odit, quibusdam animi
+                laborum. Nisi recusandae dolorum reiciendis, inventore suscipit cum nihil aliquam, quam et sed laborum
+                repudiandae voluptas?
+            </div>
+            <div class="box box4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo tempora blanditiis nam ducimus eligendi
+                voluptatibus sequi iste debitis veniam repellendus saepe aliquid qui dolores sit natus, quibusdam maxime
+                quos est!
+            </div>
+            <div class="box box5">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex dolorum eum repellat obcaecati! Accusamus
+                illum voluptas omnis ipsum? Nostrum sunt quaerat tempora dolorem quod quam nesciunt tempore, quia
+                laboriosam non.
+            </div>
+            <div class="box box6">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum omnis nostrum inventore ipsa, recusandae
+                facere, sunt suscipit eos culpa eaque in blanditiis enim, excepturi quo asperiores? A perferendis sed
+                suscipit?
+            </div>
+            <div class="box box7">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, dicta, praesentium vero provident ullam
+                asperiores, eveniet at similique vitae blanditiis repudiandae illum architecto perspiciatis corporis cum
+                molestias quos tempore voluptate!
+            </div>
+        </div>
+    </div>
+
+    <select class="js-select2" name="city" placeholder="Выберите город">
+        <option value=""></option>
+        <option value="367">Абаза</option>
+        <option value="340">Абакан</option>	
+        <option value="369">Абдулино</option>	
+        <option value="370">Абинск</option>	
+        <option value="371">Агидель</option>	
+        ...
+    </select>
+     
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="/js/select2.min.js"></script>
+    <script src="/js/ru.js"></script>
+</body>
+
+</html>
