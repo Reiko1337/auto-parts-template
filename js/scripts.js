@@ -28,6 +28,7 @@ $(document).ready(function() {
 });
 
 lightbox.option({
-    'disableScrolling': true
+    'disableScrolling': true,
+    'albumLabel': "Картинка %1 из %2"
 })
 
